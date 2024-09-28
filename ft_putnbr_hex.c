@@ -6,7 +6,7 @@
 /*   By: migugar2 <migugar2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/28 15:41:51 by migugar2          #+#    #+#             */
-/*   Updated: 2024/09/28 19:12:10 by migugar2         ###   ########.fr       */
+/*   Updated: 2024/09/28 19:21:08 by migugar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static char	get_char_hex(int i, int is_cap)
 	return ("0123456789abcdef"[i]);
 }
 
-int	ft_putnbr_hex(unsigned int nbr, int is_cap)
+int	ft_putnbr_hex(unsigned long nbr, int is_cap)
 {
 	int		count;
 

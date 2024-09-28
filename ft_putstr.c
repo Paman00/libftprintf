@@ -6,7 +6,7 @@
 /*   By: migugar2 <migugar2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/28 14:21:44 by migugar2          #+#    #+#             */
-/*   Updated: 2024/09/28 19:16:35 by migugar2         ###   ########.fr       */
+/*   Updated: 2024/09/28 19:39:48 by migugar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_putstr(char *str)
 	int		count;
 	size_t	i;
 
-	if (!str)
+	if (str == NULL)
 		return (ft_putstr("(null)"));
 	count = 0;
 	i = 0;
